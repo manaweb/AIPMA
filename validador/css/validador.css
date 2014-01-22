@@ -1,0 +1,39 @@
+.validador .styles {
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	font-size: 1em;
+	font-weight: bold;
+	box-shadow: 0px 2px 5px #ccc;-webkit-box-shadow: 0px 2px 5px #ccc;-moz-box-shadow: 0px 2px 5px #e2e2e2;
+	display: none;
+}
+.validador label.error {
+	width: 170px;
+	color: red;
+	background-color: transparent;
+	border: none;
+	float: left;
+}
+.validador .error {
+	color: black;
+	background-color: #f9edbe;
+	border: 1px solid #f0c36d;
+}
+.validador .success {
+	color: white;
+	background-color: #5da423;
+	border: 1px solid #457a1a;
+}
+.validador .close {
+	width: 1%;
+	height: 0.5em;
+	margin: 0;
+	padding: 0;
+	font-size: 1.2em;
+	float: right;
+	text-decoration: none;
+	border: none;
+}
+.validador .error .close {color: #ccc;}
+.validador .success .close {color: #508227;}
+.noShadow {box-shadow: none !important;-webkit-box-shadow: none !important;-moz-box-shadow: none !important;}

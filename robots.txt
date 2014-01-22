@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: http://ftp.aipma.com.br/
+Disallow: /docs/
+Disallow: /cpanel
+Disallow: /painel
+Disallow: /cpanel/
+Disallow: /painel/
+Sitemap: http://www.aipma.com.br/sitemap.xml
