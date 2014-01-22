@@ -40,7 +40,7 @@ include('../includes/Mensagem.php');
 		array('text',		'C&oacute;digo',		'id',				'300',			'',					'',											''),
 		array('text',		'Cliente',				'cliente',			'300',			'',					'',											''),
 		array('text',		'Email',				'email',			'300',			'',					'',											''),
-		array('text',		'Data de Envio',		'data',				'300',		   	'',					'',											''),
+		//array('text',		'Data de Envio',		'data',				'300',		   	'',					'',											''),
 	);
 
 

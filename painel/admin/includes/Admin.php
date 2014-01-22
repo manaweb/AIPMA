@@ -377,17 +377,15 @@ function adminCampos2($campos,$config,$dados, $idOrcamento) {
 	$saida .= '
 				<table class="consulta">
 					<tr>
-						<th>Produto</th>
-						<th>Quantidade</th>
-						<th>Varia&ccedil;&atilde;o</th>
+						<th style="text-align: center">Produto</th>
+						<th style="text-align: center">Quantidade</th>
 					</tr>
 					<tbody>';
 	while($dadosProduto = mysql_fetch_array($resultProdutos)){
 		$saida .=
 						'<tr>
-							<td>'.$dadosProduto['NomeProduto'].'</td>
-							<td>'.$dadosProduto['quantidade'].'</td>
-							<td>'.$dadosProduto['variacao'].'</td>
+							<td style="text-align: center;">'.$dadosProduto['NomeProduto'].'</td>
+							<td style="text-align: center;">'.$dadosProduto['quantidade'].'</td>
 						</tr>';
 	}
 	$saida.=		

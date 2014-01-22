@@ -36,7 +36,7 @@
 		array('texto',		'C&Oacute;DIGO',	'id',				''),
 		array('texto',		'CLIENTE',			'cliente',			''),
 		array('texto',		'EMAIL',			'email',			''),
-		array('texto',		'DATA DE ENVIO',	'data',				''),
+		//array('texto',		'DATA DE ENVIO',	'data',				''),
 	);
 
 

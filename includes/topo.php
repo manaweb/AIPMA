@@ -66,7 +66,7 @@
 		data-cycle-next="#banner_direita"
 		data-cycle-timeout=5000 style="position: absolute;">
 		<?php
-			$sqlBanner = "select * from tbpublicidade";
+			$sqlBanner = "select * from tbpublicidade ORDER BY id_publicidade DESC";
 			$result = mysql_query($sqlBanner);
 			while($dadosBanner = mysql_fetch_array($result)){
 				$link = $dadosBanner['destino'] == "" ? "" : "href='".$dadosBanner['destino']."' target='_blank'";
