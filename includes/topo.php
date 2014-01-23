@@ -25,7 +25,7 @@
 							<p class="icones telefone">Denuncie para o AIPMA<br><b>016 3945-9104</b></p>
 						</li>
 						<li>
-							<a href="javascript:void(0);">
+							<a href="https://facebook.com/projetoaipma">
 								<p class="icones facebook"></p>
 							</a>
 						</li>

@@ -36,7 +36,7 @@
 					</li>
 				</ul>
 				<div class="direita sociais">
-					<a href="javascript:void(0)" target="_blank">
+					<a href="https://facebook.com/projetoaipma" target="_blank">
 						<div class="esquerda sociaisIcon">
 							<img src="img/icon-face.png" alt="Facebook" />
 						</div>
